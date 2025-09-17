@@ -17,12 +17,12 @@ console.log(cpp.getAvailableTeacher());
 
 
 console.log("Java");
-cpp.setTeacher(cTeacher);
-console.log(cpp.getAvailableTeacher());
-console.log(cpp.getRequirements());
+java.setTeacher(cTeacher);
+console.log(java.getAvailableTeacher());
+console.log(java.getRequirements());
 
 
 console.log("React");
-cpp.setTeacher(cTeacher);
-console.log(cpp.getAvailableTeacher());
-console.log(cpp.getRequirements());
+react.setTeacher(cTeacher);
+console.log(react.getAvailableTeacher());
+console.log(react.getRequirements());
