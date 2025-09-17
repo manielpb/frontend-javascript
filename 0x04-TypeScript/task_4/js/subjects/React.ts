@@ -7,7 +7,7 @@ namespace Subjects{
 }
 
 namespace Subjects{
-    class React extends Subject{
+    export class React extends Subject{
         getRequirements(): string {
             return "Here is the requirements for React";
         }

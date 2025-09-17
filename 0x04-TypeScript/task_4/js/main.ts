@@ -9,3 +9,8 @@ export const cTeacher: Teacher = {
     lastName: "farrah";
     experienceTeachingC: 10;
 }
+
+console.log("C++");
+cpp.setTeacher(cTeacher);
+console.log(cpp.getRequirements());
+console.log(cpp.getAvailableTeacher());
