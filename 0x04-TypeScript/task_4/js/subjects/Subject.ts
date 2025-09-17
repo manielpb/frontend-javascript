@@ -1,6 +1,6 @@
 namespace Subjects{
     class Subject {
-        teacher: Teacher;
+        teacher: Teacher
 
         constructor(teacher: Teacher) {
             this.teacher = teacher;
