@@ -1,5 +1,5 @@
 namespace Subjects{
-    class Subject {
+    export class Subject {
         teacher: Teacher
 
         constructor(teacher: Teacher) {
