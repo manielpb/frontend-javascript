@@ -1,18 +1,20 @@
-import { Teacher } from "";
-import { Cpp } from "./Cpp";
-import { Java } from "./Java";
-import { React } from "./React";
+/// <reference path="/Users/manuel/frontend-javascript/0x04-TypeScript/task_4/js/subjects/Teacher.ts" />
+/// <reference path="/Users/manuel/frontend-javascript/0x04-TypeScript/task_4/js/subjects/Subject.ts" />
+/// <reference path="/Users/manuel/frontend-javascript/0x04-TypeScript/task_4/js/subjects/Cpp.ts" />
+/// <reference path="/Users/manuel/frontend-javascript/0x04-TypeScript/task_4/js/subjects/React.ts" />
+/// <reference path="/Users/manuel/frontend-javascript/0x04-TypeScript/task_4/js/subjects/Java.ts" />
+
+const cpp = new Cpp();
+const java = new Java();
+const react = new React();
+
 
 export const cTeacher: Teacher = {
     firstName: "Joe",
     lastName: "farrah",
     experienceTeachingC: 10,
-}
+};
 
-const cpp = new Cpp();
-
-const java = new Java();
-const react = new React();
 
 
 console.log("C++");

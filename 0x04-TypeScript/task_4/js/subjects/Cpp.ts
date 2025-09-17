@@ -1,4 +1,5 @@
-/// <reference path="./Teacher.ts" />
+/// <reference path="/Users/manuel/frontend-javascript/0x04-TypeScript/task_4/js/subjects/Teacher.ts" />
+
 
 namespace Subjects {
     export interface Teacher {
