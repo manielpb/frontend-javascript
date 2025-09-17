@@ -1,4 +1,4 @@
-import { Teacher } from "./Teacher";
+import { Teacher } from "";
 import { Cpp } from "./Cpp";
 import { Java } from "./Java";
 import { React } from "./React";
@@ -11,7 +11,7 @@ export const cTeacher: Teacher = {
 
 const cpp = new Cpp();
 
-const java = new Java ();
+const java = new Java();
 const react = new React();
 
 
