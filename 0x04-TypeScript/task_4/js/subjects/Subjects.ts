@@ -1,6 +1,6 @@
 namespace Subjects{
     class Subject {
-        teacher: VideoTransferCharacteristics;
+        teacher: Teacher;
 
         constructor(teacher: Teacher) {
             this.teacher = teacher;
